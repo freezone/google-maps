@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { catchError, map } from 'rxjs/operators';
 
+
 @Component({
   selector: 'google-maps-demo',
   templateUrl: './google-maps-demo.component.html',
